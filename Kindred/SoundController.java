@@ -10,11 +10,11 @@ public class SoundController
 {
     private static GreenfootSound menuMusic = new GreenfootSound("loop.wav");
     private static GreenfootSound button = new GreenfootSound("vgmenuselect.wav");
-    private static GreenfootSound sword = new GreenfootSound("combat-sword-swing-hit.mp3");
+    private static GreenfootSound sword = new GreenfootSound("combat-sword-swing-hit.wav");
     private static GreenfootSound grunt = new GreenfootSound("cut_grunt2.wav");
     private static GreenfootSound monster = new GreenfootSound("monster-1.wav");
     private static GreenfootSound death = new GreenfootSound("monster-6.wav");
-    private static GreenfootSound levelMusic = new GreenfootSound("C64 Level 1.mp3");
+    private static GreenfootSound levelMusic = new GreenfootSound("C64 Level 1.wav");
     private static GreenfootSound heal = new GreenfootSound("blessing2.wav");
     private static GreenfootSound shoot = new GreenfootSound("Archers-shooting.wav");
     private static GreenfootSound unlockPerk = new GreenfootSound("Menu Selection Click.wav");
