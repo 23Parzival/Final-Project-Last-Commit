@@ -24,10 +24,10 @@ public class WinScreen extends World
     
     public void act() 
     {
-        SoundController sc = new SoundController();
         timer--;
         if (timer <= 0) {
-            sc.stopWinMusic();
+            SoundController.stopWinMusic();
+            SoundController.startMenuMusic();
             Greenfoot.setWorld(new MainMenu());
         }
     }

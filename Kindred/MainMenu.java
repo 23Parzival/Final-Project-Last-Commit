@@ -12,8 +12,6 @@ public class MainMenu extends World
      * Constructor for objects of class MainMenu.
      * 
      */
-    
-    
     public MainMenu()
     {    
         super(1200, 700, 1); 
@@ -27,7 +25,6 @@ public class MainMenu extends World
      */
     private void prepare()
     {
-        SoundController.startMenuMusic();
         Start start = new Start();
         addObject(start,605,490);
         start.setLocation(616,485);

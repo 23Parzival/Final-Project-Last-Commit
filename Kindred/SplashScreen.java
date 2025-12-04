@@ -9,7 +9,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class SplashScreen extends World
 {
     private int timer = 300;
-    
     public SplashScreen()
     {    
         super(1200, 700, 1,false); 
@@ -21,6 +20,7 @@ public class SplashScreen extends World
         timer--;
         if (timer <= 0) {
             Greenfoot.setWorld(new MainMenu());
+            SoundController.startMenuMusic();
         }
     }
 }
